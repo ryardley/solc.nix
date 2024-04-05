@@ -16,7 +16,7 @@ Additionally, a convenient function `mkDefault` is provided to create a symlink 
 {
   inputs = {
     solc = {
-      url = "github:hellwolf/solc.nix";
+      url = "github:ryardley/solc.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -64,7 +64,7 @@ Version: 0.8.19+commit.7dd6d404.Linux.g++
 You can also use `nix shell` directly without having to write a nix flake for a project.
 
 ```
-nix shell github:hellwolf/solc.nix#solc_0_4_26 github:hellwolf/solc.nix#solc_0_8_19
+nix shell github:ryardley/solc.nix#solc_0_4_26 github:ryardley/solc.nix#solc_0_8_19
 ```
 
 # Contribute
